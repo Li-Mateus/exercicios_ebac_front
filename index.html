@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Sindicato do Rock</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 letrinha">O Sindicato do Rock</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex mt-3 mt-md-0">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link active">
+                            <i class="bi bi-music-note-beamed me-1"></i>
+                            Sobre a banda
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-check-square-fill me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text-fill me-1"></i>
+                            Entre em contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/band.jpg" class="d-block w-100" alt="Foto da banda">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/band-2.jpg" class="d-block w-100" alt="Foto da banda">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/band-3.jpg" class="d-block w-100" alt="Foto da banda">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/band-5.jpg" class="d-block w-100 rounded" alt="Foto da banda">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="letrinha">Sobre a banda</h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, voluptates dolorum eos ad magnam porro suscipit libero quo officiis laborum accusantium molestiae distinctio earum numquam laudantium fugit praesentium qui nesciunt.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, voluptates dolorum eos ad magnam porro suscipit libero quo officiis laborum accusantium molestiae distinctio earum numquam laudantium fugit praesentium qui nesciunt.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, voluptates dolorum eos ad magnam porro suscipit libero quo officiis laborum accusantium molestiae distinctio earum numquam laudantium fugit praesentium qui nesciunt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="letrinha text-center">Eventos</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/festival.jpg" alt="Foto de um festival de música" class="d-block w-100 rounded mb-2">
+                        <h3 class="letrinha fs-4">Festivais e Eventos</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tempore commodi magni nesciunt nostrum molestias laborum non vero odit et placeat ad ullam fuga distinctio, esse sunt eaque! Similique, blanditiis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/band-4.jpg" alt="Foto de um palco em um rock bar" class="d-block w-100 rounded mb-2">
+                        <h3 class="letrinha fs-4">Rock Bars</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tempore commodi magni nesciunt nostrum molestias laborum non vero odit et placeat ad ullam fuga distinctio, esse sunt eaque! Similique, blanditiis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/festa.jpg" alt="Foto de uma festa com música ao vivo" class="d-block w-100 rounded mb-2">
+                        <h3 class="letrinha fs-4">Festas</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tempore commodi magni nesciunt nostrum molestias laborum non vero odit et placeat ad ullam fuga distinctio, esse sunt eaque! Similique, blanditiis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="letrinha text-center">Entre em contato</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Telefone</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">E-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Deixe sua mensagem (opcional)</label>
+                                <textarea id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="letrinha fs-4 text-center">Redes sociais</h3>
+                            <ul class="social-links text-center">
+                                <li class="fs-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-1 ms-3 me-3">
+                                    <a href="#">
+                                        <i class="bi bi-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-1">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/messages_pt_BR.min.js"></script>
+    <script src="./lib/main.js"></script>
+</body>
+</html>

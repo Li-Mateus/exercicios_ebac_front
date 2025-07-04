@@ -1,0 +1,38 @@
+body {
+    color: #fff;
+}
+
+.navbar {
+    background-color: rgb(116, 0, 0);
+}
+
+.letrinha {
+    font-family: "Rye", serif;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active,
+#contato button {
+    background-color: rgb(65, 0, 0);
+    color: #fff;
+}
+
+.nav .nav-link,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+section {
+    background-color: rgb(46, 46, 46);
+    border-bottom: 3px solid black;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: red;
+}
