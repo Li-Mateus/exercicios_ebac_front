@@ -1,0 +1,23 @@
+{
+  "name": "front-end-ebac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Li-Mateus/exercicios_ebac_front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Li-Mateus/exercicios_ebac_front/issues"
+  },
+  "homepage": "https://github.com/Li-Mateus/exercicios_ebac_front#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
