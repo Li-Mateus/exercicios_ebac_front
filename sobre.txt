@@ -1,4 +1,0 @@
-Este repositório e suas branches tem a finalidade de armazenar a resolução dos exercícios do curso de front-end da EBAC. Cada exercício deve ser separado em uma branch como solicitado pela escola.
-
-Feito por: Mateus Lima
-    github: https://github.com/Li-Mateus
